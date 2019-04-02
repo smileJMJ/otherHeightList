@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8;"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,  target-densitydpi=medium-dpi"/>
+<meta name="format-detection" content="telephone=no"/>
+<link rel="stylesheet" href="common/css/style.css"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+<title>유동적인 높이 리스트</title>
+</head>
+<body>
+<div class="wrap">
+	<div class="con_box">
+		<div class="con_box_in">
+			<div class="img_list_area">
+				<ul class="img_list con-4">
+					<li>
+						<div class="thumb" style="background-image:url(common/img/result_thumb.jpg);">
+							<h4>아파트1</h4>
+						</div>
+						<div class="con">
+							<dl>
+								<dt>위치</dt>
+								<dd>부산광역시 남구 대연동 54-5번지</dd>
+							</dl>
+							<dl>
+								<dt>대지면적</dt>
+								<dd>3,545.1 ㎡</dd>
+							</dl>
+							<dl>
+								<dt>규모</dt>
+								<dd>오피스텔 286실, 도시형생활주택 260세대</dd>
+							</dl>
+							<dl>
+								<dt>기간</dt>
+								<dd>2012.04 ~ 2016.10 (예정)</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<div class="thumb" style="background-image:url(common/img/result_thumb.jpg);">
+							<h4>아파트2</h4>
+						</div>
+						<div class="con">
+							<dl>
+								<dt>위치</dt>
+								<dd>부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지</dd>
+							</dl>
+							<dl>
+								<dt>대지면적</dt>
+								<dd>3,545.1 ㎡</dd>
+							</dl>
+							<dl>
+								<dt>규모</dt>
+								<dd>오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대</dd>
+							</dl>
+							<dl>
+								<dt>기간</dt>
+								<dd>2012.04 ~ 2016.10 (예정)</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<div class="thumb" style="background-image:url(common/img/result_thumb.jpg);">
+							<h4>아파트3</h4>
+						</div>
+						<div class="con">
+							<dl>
+								<dt>위치</dt>
+								<dd>부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지</dd>
+							</dl>
+							<dl>
+								<dt>대지면적</dt>
+								<dd>3,545.1 ㎡</dd>
+							</dl>
+							<dl>
+								<dt>규모</dt>
+								<dd>오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대</dd>
+							</dl>
+							<dl>
+								<dt>기간</dt>
+								<dd>2012.04 ~ 2016.10 (예정)</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<div class="thumb" style="background-image:url(common/img/result_thumb.jpg);">
+							<h4>아파트4</h4>
+						</div>
+						<div class="con">
+							<dl>
+								<dt>위치</dt>
+								<dd>부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지</dd>
+							</dl>
+							<dl>
+								<dt>대지면적</dt>
+								<dd>3,545.1 ㎡</dd>
+							</dl>
+							<dl>
+								<dt>규모</dt>
+								<dd>오피스텔 286실, 도시형생활주택 260세대오피스텔 286실</dd>
+							</dl>
+							<dl>
+								<dt>기간</dt>
+								<dd>2012.04 ~ 2016.10 (예정)</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<div class="thumb" style="background-image:url(common/img/result_thumb.jpg);">
+							<h4>아파트5</h4>
+						</div>
+						<div class="con">
+							<dl>
+								<dt>위치</dt>
+								<dd>부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지</dd>
+							</dl>
+							<dl>
+								<dt>대지면적</dt>
+								<dd>3,545.1 ㎡</dd>
+							</dl>
+							<dl>
+								<dt>규모</dt>
+								<dd>오피스텔 286실, 도시형생활주택 260세대</dd>
+							</dl>
+							<dl>
+								<dt>기간</dt>
+								<dd>2012.04 ~ 2016.10 (예정)</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<div class="thumb" style="background-image:url(common/img/result_thumb.jpg);">
+							<h4>아파트6</h4>
+						</div>
+						<div class="con">
+							<dl>
+								<dt>위치</dt>
+								<dd>부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지</dd>
+							</dl>
+							<dl>
+								<dt>대지면적</dt>
+								<dd>3,545.1 ㎡</dd>
+							</dl>
+							<dl>
+								<dt>규모</dt>
+								<dd>오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대</dd>
+							</dl>
+							<dl>
+								<dt>기간</dt>
+								<dd>2012.04 ~ 2016.10 (예정)</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<div class="thumb" style="background-image:url(common/img/result_thumb.jpg);">
+							<h4>아파트7</h4>
+						</div>
+						<div class="con">
+							<dl>
+								<dt>위치</dt>
+								<dd>부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지</dd>
+							</dl>
+							<dl>
+								<dt>대지면적</dt>
+								<dd>3,545.1 ㎡</dd>
+							</dl>
+							<dl>
+								<dt>규모</dt>
+								<dd>오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대</dd>
+							</dl>
+							<dl>
+								<dt>기간</dt>
+								<dd>2012.04 ~ 2016.10 (예정)</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<div class="thumb" style="background-image:url(common/img/result_thumb.jpg);">
+							<h4>아파트8</h4>
+						</div>
+						<div class="con">
+							<dl>
+								<dt>위치</dt>
+								<dd>부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지</dd>
+							</dl>
+							<dl>
+								<dt>대지면적</dt>
+								<dd>3,545.1 ㎡</dd>
+							</dl>
+							<dl>
+								<dt>규모</dt>
+								<dd>오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대</dd>
+							</dl>
+							<dl>
+								<dt>기간</dt>
+								<dd>2012.04 ~ 2016.10 (예정)</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<div class="thumb" style="background-image:url(common/img/result_thumb.jpg);">
+							<h4>아파트9</h4>
+						</div>
+						<div class="con">
+							<dl>
+								<dt>위치</dt>
+								<dd>부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지</dd>
+							</dl>
+							<dl>
+								<dt>대지면적</dt>
+								<dd>3,545.1 ㎡</dd>
+							</dl>
+							<dl>
+								<dt>규모</dt>
+								<dd>오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대</dd>
+							</dl>
+							<dl>
+								<dt>기간</dt>
+								<dd>2012.04 ~ 2016.10 (예정)</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<div class="thumb" style="background-image:url(common/img/result_thumb.jpg);">
+							<h4>아파트10</h4>
+						</div>
+						<div class="con">
+							<dl>
+								<dt>위치</dt>
+								<dd>부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지부산광역시 남구 대연동 54-5번지</dd>
+							</dl>
+							<dl>
+								<dt>대지면적</dt>
+								<dd>3,545.1 ㎡</dd>
+							</dl>
+							<dl>
+								<dt>규모</dt>
+								<dd>오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대오피스텔 286실, 도시형생활주택 260세대</dd>
+							</dl>
+							<dl>
+								<dt>기간</dt>
+								<dd>2012.04 ~ 2016.10 (예정)</dd>
+							</dl>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--E: img_list_area-->
+			<div class="btn_area">
+				<a href="#" class="btn goList">더보기</a>
+			</div>
+			<!--E: btn_area-->
+		</div>
+		<!--E: con_box_in -->
+	</div>
+	<!--E: con_box -->
+</div>
+<!--E: wrap -->
+
+<script type="text/javascript" src="common/js/list.js"></script>
+<script type="text/javascript">
+$(function(){
+	changeHeightList.init($(".img_list"), {
+		"col":2
+	});
+});
+</script>
+</body>
+</html>
